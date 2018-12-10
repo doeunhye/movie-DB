@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include "movie.h"
-#include "linkedList.c"
+
+
 typedef struct movInfo{
 	char name[200];
 	float score;
