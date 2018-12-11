@@ -52,8 +52,7 @@ int main(int argc, char *argv[]) {
 					//2.2 print a movie data : use functions of movie.c and linkedList.c
 					//ndPtr = the next node of the ndPtr;
 					//get object of ndPtr to mvInfo void pointer
-					//print the contents of the mvInfo
-				}
+				pintf(" ")
 				
 				break;
 				
