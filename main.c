@@ -23,6 +23,7 @@ int main(int argc, char *argv[]) {
 	//1. reading the movie.dat-----------------------------
 	linked_t *fp;
 	//1.1 FILE open
+	fp = fopen("movie.h", "w");
 	
 	//1.2 list generation (use function list_genList() )
 	list = list_genList();
@@ -33,8 +34,8 @@ int main(int argc, char *argv[]) {
 		//generate a movie info instance(mvInfo) with function mv_genMvInfo()
 		list_addTail(mvInfo, list);
 	}
-
 	//1.4 FILE close
+	fclose(fp);
 	
 	//2. program start
 	while(exit_flag == 0) 
