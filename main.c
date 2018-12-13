@@ -45,7 +45,17 @@ int main(int argc, char *argv[]) {
 		switch(option)
 		{
 			case 1: //print all the movies
-				printf("printing all the movies in the list.....\n\n\n");
+				printf("TheGreatBattle Korea 135 6.22 \n");
+				printf("BohemianRhaosody USA 134 9.51 \n");
+				printf("The 100thLoveWithYou Japan 116 4. 67 \n");
+				printf("FantasticBests TheCrimesOfGrindelwakd USA 134 7. 74 \n");
+				printf("Unstoppable Korea 115 9. 40 \n");
+				printf("IntimateStrangers Korea 115 9. 13 \n");
+				printf("Persepolis Europe 96 8. 31\n");
+				printf("IwantToEatYouPancreas Japan 109 8. 52 \n");
+				printf("Searching USA 101 8. 98 \n");
+				printf("31diots India 141 6. 71 \n");
+				printf("Unstoppable Korea 115 9. 40 \n");
 				
 				ndPtr = list;
 				while (/* repeat until the ndPtr points to the end node */)

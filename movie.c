@@ -3,7 +3,6 @@
 #include <string.h>
 #include "movie.h"
 
-
 typedef struct movInfo{
 	char name[200];
 	float score;
